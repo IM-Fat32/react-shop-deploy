@@ -11,7 +11,7 @@ const Menu = () => {
     <MenuContainer>
       <StyledUl>
         <MyNavLink path="/react-shop-deploy" icon={faIgloo} />
-        <MyNavLink path="/shop/1" icon={faShoppingBasket} />
+        <MyNavLink path="/react-shop-deploy/shop/1" icon={faShoppingBasket} />
       </StyledUl>
     </MenuContainer >
   );

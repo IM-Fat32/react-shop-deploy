@@ -31,10 +31,10 @@ function App() {
           <AnimatePresence>
             <Switch location={location} key={location.key}>
               <Route path="/react-shop-deploy" component={HomePage}/>
-              <Route path="/shop/:page" exact component={ShopPage}/>
-              <Route path='/shop/product/:id' component={ProductPage}/>
-              <Route path='/cart' component={CartPage}/>
-              <Route path='/done' component={DonePage}/>
+              <Route path="/react-shop-deploy/shop/:page" exact component={ShopPage}/>
+              <Route path='/react-shop-deploy/shop/product/:id' component={ProductPage}/>
+              <Route path='/react-shop-deploy/cart' component={CartPage}/>
+              <Route path='/react-shop-deploy/done' component={DonePage}/>
             </Switch>
           </AnimatePresence>
           <Footer/>
