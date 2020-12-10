@@ -73,7 +73,7 @@ const ProductList = ({ props }) => { //props filter z parent komponentu
 
   for (let i = 0; i < numberPageButtons; i++) {
     pageButtons.push(
-      <LinkStyled key={`page${i + 1}`} to={`/shop/${i + 1}`} >{i + 1}</LinkStyled>
+      <LinkStyled key={`page${i + 1}`} to={`/react-shop-deploy/shop/${i + 1}`} >{i + 1}</LinkStyled>
     )
   }
   productsListToShow = productsListToShow.slice(firstProduct, lastProduct);
