@@ -153,10 +153,10 @@ const CartPage = () => {
             <> {cartProducts.reverse()}
               <BuyPanel>
                 <StyledPrice>Łączna kwota: {totalPrice} zł</StyledPrice>
-                <Link to="/done">
+                <Link to="/react-shop-deploy/done">
                   <BuyNowButton onClick={handleReduceNumberOfProducts}>
                     Kup teraz
-            </BuyNowButton>
+                  </BuyNowButton>
                 </Link>
               </BuyPanel>
             </>

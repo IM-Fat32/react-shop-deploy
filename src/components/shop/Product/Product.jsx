@@ -34,7 +34,7 @@ const Product = ({ nameOfProduct, price, image, id, magazine, numOfProducts }) =
   }
   return (
     <ProductWrapper>
-      <StyledLink to={`/shop/product/${id}`} style={{ textDecoration: "none" }}>
+      <StyledLink to={`/react-shop-deploy/shop/product/${id}`} style={{ textDecoration: "none" }}>
         <ProductTitle>{nameOfProduct}</ProductTitle>
         <StyledImg src={image} alt={`${nameOfProduct}`} />
       </StyledLink>

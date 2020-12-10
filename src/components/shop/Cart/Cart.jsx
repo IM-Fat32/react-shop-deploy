@@ -97,7 +97,7 @@ const Cart = ({ callback, state }) => { //callback , fukcja zamykająca okno kos
         showCartArray.length > 0 ?
           <>
             {showCartArray}
-            <StyledLink to="/cart">Zobacz cały koszyk</StyledLink>
+            <StyledLink to="/react-shop-deploy/cart">Zobacz cały koszyk</StyledLink>
             <p>Total: {totalPrice}zł</p>
           </>
           : <p>Twój koszyk jest pusty</p>
