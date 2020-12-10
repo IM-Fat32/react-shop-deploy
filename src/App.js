@@ -30,7 +30,7 @@ function App() {
         <div className="context--container">
           <AnimatePresence>
             <Switch location={location} key={location.key}>
-              <Route path="/" exact component={HomePage}/>
+              <Route path="/react-shop-deploy/" exact component={HomePage}/>
               <Route path="/shop/:page" exact component={ShopPage}/>
               <Route path='/shop/product/:id' component={ProductPage}/>
               <Route path='/cart' component={CartPage}/>
