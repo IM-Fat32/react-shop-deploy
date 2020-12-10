@@ -54,7 +54,7 @@ const ShopMenu = () => {
         transition={{ duration: .5 }}
       />
       <ShopToolsWrapper>
-        <StyledLink to="/shop/1" onClick={handleResetButton}>D</StyledLink>
+        <StyledLink to="/react-shop-deploy/shop/1" onClick={handleResetButton}>D</StyledLink>
         <div style={{ flexGrow: 0.9 }}></div>
         <ToolsToRightWrapperStyle>
           <SearchInputStyle
